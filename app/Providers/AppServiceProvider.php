@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\URL;    //この行を追加
+use Illuminate\Support\Facades\URL;    //この行を追加しなさい
 
 class AppServiceProvider extends ServiceProvider
 {
