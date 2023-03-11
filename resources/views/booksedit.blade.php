@@ -39,7 +39,7 @@
             </div>
 
 
-            <!-- 本のタイトル -->
+            <!-- 本のタイトル  -->
             <form action="{{ url('books/'.$book->id ) }}" method="POST" class="w-full max-w-lg">
                 @method('PATCH')
                 @csrf
